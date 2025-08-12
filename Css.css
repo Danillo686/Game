@@ -1,0 +1,51 @@
+body {
+    background-image: url(9259344.jpg);
+    background-size: cover;
+}
+
+
+#Play {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 97vh;
+}
+    
+#BotãoSettings {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+
+}
+
+#Botão:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+#Botão {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    margin: 20px;
+    display: block;
+}
+
+#BotãoSettings:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+
+.Night {
+    background-image: url(7481714.jpg);
+    background-size: cover;
+}
