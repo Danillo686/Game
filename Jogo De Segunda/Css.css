@@ -1,0 +1,119 @@
+
+body {
+    background-image: url(9285000.jpg);
+    background-size: cover; /*Imagem pré-definida de fundo*/
+}
+
+
+#Alinhamento {
+    margin-top: 350px;
+    text-align: center; /* Alinhamento dos botões*/ 
+}
+
+/* Estilização do botão de configuração*/
+
+#BotãoConfiguração{
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+
+}
+#BotãoConfiguração:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização do botão de "Jogar"*/
+
+#Botão {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+
+}
+#Botão:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização pro botão de "Volta"*/
+
+#Voltar{
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    
+}
+#Voltar:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização do botão de Modo claro*/
+
+#ModoClaro {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    background-image: url(9285000.jpg) ;
+    background-size: cover;
+}
+#ModoClaro:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização do botão de Modo claro*/ 
+
+#ModoEscuro {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    background-image: url(9999.jpg);
+    background-size: cover;
+}
+#ModoEscuro:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Aumento no tamanho da fonte*/
+
+#EscolhaSeuModo{
+    font-size: 40px;
+}
+
+.Continuação {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;    
+}
+
+.Continuação:hover {
+    background-color: rgb(192, 125, 24);
+}
