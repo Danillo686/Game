@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="Css.css">
 </head>
 <body id="body">
-    <div id="Alinhamento"> <!--Deixar os botões alinhados-->
-        <div id="EscolhaSeuModo">Escolha seu modo</div> <!--Modo de jogo dentro das configurações-->
+    <div id="VidaDoUser"></div> <!--Vida do Jogador 1, mas não vai aparecer, até ele começar o jogo-->
+    <div id="VidaDoOponente"></div>
+    <div id="Alinhamento">  <!--Usado para deixar os botões em posições satisfatorias-->
+        <div id="EscolhaSeuModo">Escolha seu modo</div> <!--Pequena frase pra guiar os usuários-->
         <div>
-            <button id="ModoEscuro" onclick="ModoEscuro()">Dark</button> <!--Dark mode dentro das configurações-->
-            <button id="Botão" onclick="Jogar()">Jogar</button> <!--Botão de jogar-->
-            <button id="ModoClaro" onclick="ModoClaro()">Claro</button><!--Modo claro dentro das configurações-->
+            <button id="ModoEscuro" onclick="ModoDark()">Dark</button> <!--Trocar o fundo nas configurações-->
+            <button id="Botão" onclick="Jogar()">Jogar</button> <!--Botão pra iniciar o jogo-->
+            <button id="ModoClaro" onclick="ModoClaro()">Claro</button>
         </div>
         <br> <!--Separar um pouco os botões-->
-        <button id="BotãoConfiguração" onclick="Configuração()">Configurações</button> <!--Botão de configuração-->
+        <button id="BotãoConfiguração" onclick="Configuração()">Configurações</button> <!--Botão das configurações-->
         <br>
-        <button id="Voltar" onclick="Voltar()">Voltar</button> <!--Botão para sair das configurações-->  
-       
-        
+        <button id="Voltar" onclick="Voltar()">Voltar</button> <!--Botão para SAIR das configurações-->
     </div>
     <script src="script.js"></script>  
 </body>
