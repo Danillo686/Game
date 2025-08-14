@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css.css">
+</head>
+<body id="body">
+    <div id="VidaDoUser"></div> <!--Vida do Jogador 1, mas não vai aparecer, até ele começar o jogo-->
+    <div id="VidaDoOponente"></div>
+    <div id="Alinhamento">  <!--Usado para deixar os botões em posições satisfatorias-->
+        <div id="EscolhaSeuModo">Escolha seu modo</div> <!--Pequena frase pra guiar os usuários-->
+        <div>
+            <button id="ModoEscuro" onclick="ModoDark()">Dark</button> <!--Trocar o fundo nas configurações-->
+            <button id="Botão" onclick="Jogar()">Jogar</button> <!--Botão pra iniciar o jogo-->
+            <button id="ModoClaro" onclick="ModoClaro()">Claro</button>
+        </div>
+        <br> <!--Separar um pouco os botões-->
+        <button id="BotãoConfiguração" onclick="Configuração()">Configurações</button> <!--Botão das configurações-->
+        <br>
+        <button id="Voltar" onclick="Voltar()">Voltar</button> <!--Botão para SAIR das configurações-->
+
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>

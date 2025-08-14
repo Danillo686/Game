@@ -1,0 +1,207 @@
+
+
+body {
+    background-image: url(9285000.jpg);
+    background-size: cover; /*Imagem pré-definida de fundo*/
+    margin: 0;
+    padding: 0;
+} /* imagem inicial, ensolarado*/
+
+
+#Alinhamento {
+    margin-top: 350px;
+    text-align: center; /* Alinhamento dos botões*/ 
+}
+
+/* Estilização do botão de configuração*/
+
+#BotãoConfiguração{
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+
+}
+#BotãoConfiguração:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização do botão de "Jogar"*/
+
+#Botão {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+
+}
+#Botão:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização pro botão de "Volta"*/
+
+#Voltar{
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    
+}
+#Voltar:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização do botão de Modo claro, que coloca o fundo ensolarado*/
+
+#ModoClaro {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    background-image: url(9285000.jpg) ;
+    background-size: cover;
+}
+#ModoClaro:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Estilização do botão de Modo claro, que coloca o fundo noturno*/ 
+
+#ModoEscuro {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;
+    background-image: url(9999.jpg);
+    background-size: cover;
+}
+#ModoEscuro:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Aumento no tamanho da fonte das frases*/
+
+#EscolhaSeuModo{
+    font-size: 40px;
+}
+
+/* Estilziação do botão de prosseguir do tutorial*/
+
+.Continuação {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large;    
+    margin: 20px;
+}
+
+.Continuação:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Botão de atack do jogador 1*/ 
+
+.GiroDoDado1 {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large; 
+    margin-top: 150px;
+    margin: 50px;
+}
+
+.GiroDoDado1:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Botão de atack do jogador 2*/
+
+.GiroDoDado2 {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large; 
+    margin-top: 150px;
+    margin: 50px
+}
+
+.GiroDoDado2:hover {
+    background-color: rgb(192, 125, 24);
+}
+
+/*Barra de vida do jogador 1*/
+
+#VidaDoUser{
+    background-color: yellow;
+    width: 300px;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: black;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+/*Barra de vida do jogador 2*/
+
+#VidaDoOponente{
+    background-color: yellow;
+    width: 300px;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: black;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+/*Estilziação do boão de reiniciar*/
+
+.Reiniciar {
+    padding: 20px;
+    width: 200px;
+    background-color: rgb(92, 221, 17);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: large; 
+}
+.Reiniciar:hover {
+    background-color: rgb(192, 125, 24);;
+}
